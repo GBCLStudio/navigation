@@ -1,0 +1,142 @@
+:root {
+    --text-color      : #34495e;
+    --color1          : #EC3E27;
+    --color2          : #fd79a8;
+    --color3          : #0984e3;
+    --color4          : #00b894;
+    --color5          : #fdcb6e;
+    --color6          : #e056fd;
+    --color7          : #F97F51;
+    --color8          : #BDC581;
+}
+
+* {
+    margin : 0;
+    padding: 0;
+}
+
+html {
+    font-size: 14px;
+}
+
+body {
+    width : 100vw;
+    height: 100vh;
+
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+    font-family     : 'Montserrat', sans-serif, Arial, 'Microsoft Yahei';
+    /* background-image: linear-gradient(to right, #7f53ac 0, #657ced 100%); */
+}
+
+.channel {
+    position   : absolute;
+    width      : 80%;
+    text-align : center;
+    top        : 50%;
+    left       : 50%;
+    transform  : translate(-50%, -200px);
+    font-size  : 30px;
+    font-weight: bold;
+    color      : #fff;
+}
+
+/* 按钮 */
+
+.btn {
+    /* 内间距 */
+    padding      : 1em 3em;
+    /* 圆角 */
+    border-radius: 6px;
+
+    /* 背景色 */
+    background-color: #fff;
+
+    color          : #333;
+    font-size      : 24px;
+    text-decoration: none;
+}
+
+/* 按钮：鼠标移入效果 */
+.btn:hover {
+    color: #00b894;
+}
+
+
+
+/* 模态框 背景 初始化样式 */
+.modal-window {
+    /* 固定定位 */
+    position: fixed;
+    /* 实现满屏 */
+    top     : 0;
+    left    : 0;
+    right   : 0;
+    bottom  : 0;
+
+    /* 半透明的背景 */
+    background-color: rgba(0, 0, 0, 0.5);
+
+    z-index: 9999;
+
+    /* 初始化时让它隐藏 */
+    visibility    : hidden;
+    opacity       : 0;
+    /* 不响应鼠标事件 */
+    pointer-events: none;
+
+    /* 让主体部分居中对齐 */
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+
+}
+
+/* 模态框 背景 弹出样式 */
+.modal-window:target {
+    visibility    : visible;
+    opacity       : 1;
+    pointer-events: auto;
+}
+
+/* 模态框主体部分 */
+.modal-window>div {
+    position: relative;
+
+    width  : 400px;
+    padding: 2em;
+
+    border-radius: 10px;
+
+    background-color: #fff;
+}
+
+/* 模态框 关闭 */
+.modal-close {
+    position: absolute;
+
+    right: 30px;
+    top  : 20px;
+
+    color          : #aaa;
+    text-decoration: none;
+}
+
+.modal-close:hover {
+    color: #333;
+}
+
+
+/* 模态框 标题 */
+.modal-title {
+    color    : #00b894;
+    font-size: 30px;
+    padding  : 15px 0;
+}
+
+/* 模态框正文 */
+.modal-body {
+    font-size: 18px;
+    margin   : 15px 0;
+}
