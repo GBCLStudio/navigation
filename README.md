@@ -26,6 +26,13 @@ jump.html 所采用的跳转方式，为延时跳转，你可以随意修改延�
 
 如果你觉得这玩意能用，可以 Donate 我们哦
 
+## 示范
+如果你想看配置完成后的样子，请看我的 Demo
+
+Demo 访问地址（Github Pages）：https://gongcxgithub.github.io/navigation/demo/
+
+或者：https://www.gcxstudio.tech
+
 ## 作者
 我的博客：https://www.gcxstudio.cn
 
