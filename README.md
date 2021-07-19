@@ -19,6 +19,10 @@
 ## 其他
 jump.html 所采用的跳转方式，为延时跳转，你可以随意修改延长时间，让访客多看会 Loading...
 
+从 v0.3-alpha 版本开始，我们加入了可选的背景动画选项，此依赖于 [Particles.js](https://github.com/VincentGarreau/particles.js) 的动画，云端版和本地版均引用 jsDelivr 资源
+
+**Particles.js 由 VincentGarreau 开发，在次尊重作者版权**
+
 ## 关于
 您好，我们正在使用 MIT 开源许可，请遵循此许可进行二次修改、搬运以及其他操作
 
