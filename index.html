@@ -9,7 +9,10 @@
     text-align: center;
     width: 100%;
     position: absolute;
-    bottom: 0; }
+    bottom: 0; 
+	    a:link {text-decoration:none; color:#111111;} /* 未点击状态时显示为较黑色 */
+	    a:visited {color:#0099FF;} /*用户已访问过的链接显示蓝色*/
+	    a:hover {text-decoration:underline; color:#111111;}   /* 鼠标放置在链接上时显示为较黑色并出现下划线 */
 </style>
  <!-- 提醒用户进行浏览器更新（不必要，可不启用） -->
     <!--<script>
@@ -29,7 +32,16 @@ catch(e){window.attachEvent("onload", $buo_f)}
     <link rel="stylesheet" href="css/in.css">
 	<!-- 站点图标（可使用本地） -->
     <link rel="shortcut icon" href="https://xxx.com/xxx.ico" />
+	<!-- 飘花特效（默认推荐） -->
     <script src="js/flower.js"></script>
+	<!-- 雪花特效（选择性启用 - 需开启同系列 JS 与 CSS 总控在 Body 下） -->
+	<!-- <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script> -->
+	<!-- <script src="js/snow.js"></script> -->
+	<!-- <link rel="stylesheet" href="css/snow.css"> -->
+	<!-- 三角形特效（选择性启用 - 需开启同系列 JS 与 CSS 总控在 Body 下） -->
+	<!-- <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script> -->
+	<!-- <script src="js/triangles.js"></script> -->
+	<!-- <link rel="stylesheet" href="css/triangles.css"> -->
      <!-- 引入自定义鼠标指针，可不开启 -->
 	<!--<style>
 *{cursor:url(cursor/20_arrow.cur),auto !important;}
@@ -41,6 +53,10 @@ a:hover,a:active,a:visited,a *,a *:hover,a *:active,a *:visited,button,button *,
     <title>Gong_cx 导航站源码</title>
 </head>
 <body>
+	<!-- 雪花特效总控 -->
+	<!-- <div id="snow"></div> -->
+	<!-- 三角形特效总控 -->
+	<!-- <div class="triangles"></div> -->
 <!-- 播放指定音乐（不必要） -->
     <!--<audio autoplay="autoplay" loop="true" hidden="true">
     <source src="https://xxx.com/xxx.mp3" />
