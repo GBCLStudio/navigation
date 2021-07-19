@@ -1,0 +1,13 @@
+    #snow {
+        position: fixed;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        z-index: -1;
+        pointer-events: none;
+        transition: filter .5s ease;
+    }
+    html.darkmode #snow{
+        filter: invert(0.3);
+    }
