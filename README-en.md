@@ -18,7 +18,7 @@ This is a very imperfect source code, can only modify their own HTML content, ba
 
 Starting from the V0.2-Alpha version, we offer two versions of index.html
 
-One is index-cloud.html, this release uses the CSS and JS file addresses provided by the author, and there is index.html to run the resource file within the directory of the site, please download the V0.2-alpha release for the Details static.zip file
+One is index-cloud.html, this release uses the CSS and JS file addresses provided by the author, and there is index.html to run the resource file within the directory of the site, all resource files are stored in the static.zip file
 
 ## Other
 
