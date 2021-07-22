@@ -1,6 +1,6 @@
 # Gong_cx 导航站源码
 
-Can you understand this document? If you are English native, please read this document：[English](https://github.com/Gongcxgithub/navigation/blob/master/README-en.md) / 中文
+Can you understand the current language? If you are English native, please read this document：[English](https://github.com/Gongcxgithub/navigation/blob/master/README-en.md) / 中文
 
 ## 介绍
 一个很废物的导航站代码，甚至只能手动修改 HTML 内容
