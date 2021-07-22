@@ -1,5 +1,7 @@
 # Gong_cx navigation station source code
 
+您能看懂当前的语言吗？如果您是中文母语者，请读该文档：English / [中文](https://github.com/Gongcxgithub/navigation/blob/master/README.md)
+
 ## Introduction
 
 A very waste of the navigation station code, can only manually modify the HTML content
