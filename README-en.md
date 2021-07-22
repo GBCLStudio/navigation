@@ -4,7 +4,7 @@
 
 ## Introduction
 
-A very waste of the navigation station code, can only manually modify the HTML content
+A very bad of the navigation station code, can only manually modify the HTML content
 
 This is a very imperfect source code, can only modify their own HTML content, background animation using open source projects, thanks here.
 
