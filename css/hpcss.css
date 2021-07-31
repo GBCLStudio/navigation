@@ -29,19 +29,6 @@ body{
     height: 140px;
     margin: 20px;
 }
-.container .box .img{
-    width: 100px;
-    height: 100px;
-    box-shadow: 18px 18px 30px rgba(0, 0, 0, 0.1),
-    -18px -18px 30px rgba(255, 255, 255, 1);
-    border-radius: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #efeeee;
-    transition: box-shadow .2s ease-out;
-    position: relative;
-}
 
 .container .box .img  img{
     width: 60px;
