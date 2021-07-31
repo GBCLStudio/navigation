@@ -14,14 +14,14 @@ Can you understand the current language? If you are English native, please read 
 4. 给本仓库来个 Star 并 Fork 
 
 ## index.html 相关
-~~从 v0.2-alpha 版本开始，我们提供两个版本的 index.html
+~~从 v0.2-alpha 版本开始，我们提供两个版本的 index.html~~
 
-~~一个是 index-cloud.html，此版本使用作者提供的 CSS 和 JS 文件地址，还有一个 index.html 则为使用站点运行目录内的资源文件，详细资源文件请下载 v0.2-alpha 发行版提供的 static.zip 文件
+~~一个是 index-cloud.html，此版本使用作者提供的 CSS 和 JS 文件地址，还有一个 index.html 则为使用站点运行目录内的资源文件，详细资源文件请下载 v0.2-alpha 发行版提供的 static.zip 文件~~
 
 从 v0.1-beta 开始，取消 index-cloud.html 版本，过往版本的 index-cloud.html 仍然可用，但不再更新
 
 ## 其他
-~~jump.html 所采用的跳转方式，为延时跳转，你可以随意修改延长时间，让访客多看会 Loading...
+~~jump.html 所采用的跳转方式，为延时跳转，你可以随意修改延长时间，让访客多看会 Loading...~~
 
 从 v0.1-beta 版本开始，我们完全修改了跳转方式，不再使用 jump.html，如果仍然需要，请下载上一版本的 jump.html
 
@@ -47,7 +47,7 @@ Can you understand the current language? If you are English native, please read 
 
 Demo 访问地址（Github Pages）：https://gongcxgithub.github.io/navigation/demo/
 
-~~或者：https://www.gcxstudio.tech
+~~或者：https://www.gcxstudio.tech~~
 
 ## 作者
 我的博客：https://www.gcxstudio.cn
