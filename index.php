@@ -86,7 +86,7 @@ catch(e){window.attachEvent("onload", $buo_f)}
     <link rel="stylesheet" href="css/boxcss.css">
     <link rel="stylesheet" href="css/in.css">
 	<!-- 站点图标（可使用本地） -->
-    <link rel="shortcut icon" href="https://example.com/example.ico" />
+    <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/Gongcxgithub/navigation@master/images/logo.jpg" />
 	<!-- 飘花特效（默认推荐） -->
     <script src="js/flower.js"></script>
 	<!-- 引用 Particles.js 库 -->
