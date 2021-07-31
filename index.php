@@ -1,7 +1,7 @@
 <!--
 ╔═════════════════════════════════════════════════════════════════════════════════════════════════════
 ║title: Gong_cx 开源导航源码
-║Gong_cx 导航站源码 v0.1-beta
+║Gong_cx 导航站源码 v0.1-rc1-beta
 ║1. 代码共计487行（包含注释）
 ║2. 代码为PHP+HTML5+CSS+部分js。
 ║3. 代码开源选用的开源协议为MIT。
@@ -125,16 +125,6 @@ a:hover,a:active,a:visited,a *,a *:hover,a *:active,a *:visited,button,button *,
     <!--👆👆仿写腾讯云的title设计。-->
     <link rel="stylesheet" type="text/css" href="css/tooltip.css">
     <!--👆👆主页彩蛋tooltip-->
-	<div class="haohanyh-nav-top">
-                <!--👇👇仿写腾讯云的title设计。-->
-                <a class="haohanyh-nav-top-logo"></a>
-                <div class="haohanyh-nav-top-links">
-                    <a onclick="author();" class="haohanyh-nav-top-link" title="关于作者" style="font-size:1rem;">关于作者</a>
-                    <a onclick="disclaimer();" title="免责申明" class="haohanyh-nav-top-link">免责申明</a>
-                    <div class="ip-address">
-                    <?php echo "<p onclick=\"goto_ip()\" style=\"margin-top: 1.325rem;font-size:1em;font-weight:500;color:#338fff \">" . "您于北京时间" . date("Y-m-d l H:i:s") . '，'  . "您的IP是:" . $ip . "</p>";?>
-                    </div>
-                </div>
 	<!-- （选择启用）雪花动画效果全部代码，如需启用请删除注释 -->
 	<!-- <div id="snow"></div> -->
 	<!-- <script>
@@ -221,8 +211,15 @@ particlesJS('snow', {"particles":{"number":{"value":104,"density":{"enable":true
             <p>站点名称6</p>
         </div>
     </div>
-	<!-- 备案相关 -->
-    <div class="footer"><!-- 如果你备案了请将此处注释符删去并添加您的备案号 --><!-- <p><a href="http://beian.miit.gov.cn/">某地区ICP备XXXXXXXXXX号-1</a></p></div>
+	<!-- 页尾 -->
+    <div class="footer"><!-- 如果你备案了请将此处注释符删去并添加您的备案号 --><!-- <p><a href="http://beian.miit.gov.cn/">某地区ICP备XXXXXXXXXX号-1 </a></p><br />-->
+                <div class="haohanyh-nav-top-links">
+                    <a onclick="author();" class="haohanyh-nav-top-link" title="关于作者" style="font-size:16px;">关于作者</a>
+                    <a onclick="disclaimer();" title="免责申明" class="haohanyh-nav-top-link" style="font-size:16px">免责申明</a>
+                    <div class="ip-address">
+                    <?php echo "<p onclick=\"goto_ip()\" style=\"margin-top: 1.325rem;font-size:1em;font-weight:500;color:#338fff \">" . "您于北京时间" . date("Y-m-d l H:i:s") . '，'  . "您的IP是:" . $ip . "</p>";?>
+                    </div>
+                </div></div>
 <!-- 鼠标点击特效 -->
 <script src="js/d.js"></script>
 <!-- 阻止用户使用 F12（可不启用） -->
