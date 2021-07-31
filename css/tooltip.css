@@ -1,0 +1,33 @@
+.tooltip {
+     position: relative;
+     display: inline-block;
+}
+.tooltip .tooltiptext {
+     visibility: hidden;
+     width: 7.5rem;
+     background-color: darkslateblue;
+     color: rgb(18,178,160);
+     text-align: center;
+     border-radius: 0.375rem;
+     padding: 0.3125rem 0;
+     position: absolute;
+     z-index: 1;
+     top: 100%;
+     left: 50%;
+     margin-left: -3.75rem;
+}
+.tooltip .tooltiptext::after {
+     content: "";
+     font-family: 'pingfang SC','helvetica neue',arial,'hiragino sans gb','microsoft yahei ui','microsoft yahei',simsun,sans-serif;
+     position: absolute;
+     bottom: 100%;
+     left: 50%;
+     margin-left: -0.3125rem;
+     border-width: 0.3125rem;
+     border-style: solid;
+     border-color: transparent transparent darkslateblue transparent;
+}
+ 
+ .tooltip:hover .tooltiptext {
+     visibility: visible;
+}
