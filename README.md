@@ -4,7 +4,7 @@ Can you understand the current language? If you are English native, please read 
 
 ## ！！！！重点！！！！
 
-本项目基于 FBHomePage 二开 https://github.com/talting/FBHoemPage 
+本项目基于 FBHomePage 二开 https://github.com/talting/FBHoemPage 原作者：talting
 
 本项目完全遵守 Apache2.0 协议
 
