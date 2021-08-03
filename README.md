@@ -2,6 +2,12 @@
 
 Can you understand the current language? If you are English native, please read this document：[English](https://github.com/Gongcxgithub/navigation/blob/master/README-en.md) / 中文
 
+## ！！！！重点！！！！
+
+本项目基于 FBHomePage 二开 https://github.com/talting/FBHoemPage
+
+本项目完全遵守 Apache2.0 协议
+
 ## 介绍
 一个很废物的导航站示例，甚至只能手动修改 HTML 内容
 
