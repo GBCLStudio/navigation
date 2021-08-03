@@ -1,11 +1,11 @@
-# Gong_cx 导航站源码
+# Gong_cx 导航站样例
 
 Can you understand the current language? If you are English native, please read this document：[English](https://github.com/Gongcxgithub/navigation/blob/master/README-en.md) / 中文
 
 ## 介绍
-一个很废物的导航站代码，甚至只能手动修改 HTML 内容
+一个很废物的导航站示例，甚至只能手动修改 HTML 内容
 
-这是一个非常不完善的源码，只能自己修改 HTML 内容，背景动画使用开源项目实现，在此感谢。
+这是一个非常不完善的示例，只能自己修改 HTML 内容，背景动画使用开源项目实现，在此感谢。
 
 ## 安装教程
 1. 下载最新的发行版
@@ -38,7 +38,7 @@ Can you understand the current language? If you are English native, please read 
 
 ## 引用
 
-本源码引用了：
+本示例引用了：
 
 蓝星计划、Particles.js、Sweetalert2
 
