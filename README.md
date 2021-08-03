@@ -4,13 +4,13 @@ Can you understand the current language? If you are English native, please read 
 
 ## ！！！！重点！！！！
 
-本项目基于 FBHomePage 二开 https://github.com/talting/FBHoemPage ；以及
+本项目基于 FBHomePage 二开 https://github.com/talting/FBHoemPage 
 
-本项目完全遵守 Apache2.0 协议；以及
+本项目完全遵守 Apache2.0 协议
 
-本项目版权归 Gong_cx，原作者已永久的、全球性的、非排他性的、免费的、免版税的、不可撤销的版权许可，公开展示、公开使用、再许可、分发其作品和本衍生作品（无论是以“源码”还是“目标”形式）；以及
+本项目版权归 Gong_cx，原作者‘已永久的、全球性的、免费的、免版税的，公开展示、公开使用、再许可、分发其作品和本衍生作品（无论是以“源码”还是“目标”形式）’予以本人，您应知晓，此许可为遵循 Apache 2.0 协议的
 
-当您对本项目进行衍生开发时，您应标注本项目版权。
+当您对本项目进行衍生开发时，您应标注本项目版权，本人依照协议独立拥有本项目的版权。
 
 ## 介绍
 一个很废物的导航站示例，甚至只能手动修改 HTML 内容
