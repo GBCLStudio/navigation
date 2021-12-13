@@ -55,7 +55,7 @@ Can you understand the current language? If you are English native, please read 
 ## 示范
 如果你想看配置完成后的样子，请看我的 Demo
 
-Demo 访问地址（Github Pages）：https://gongcxgithub.github.io/navigation/demo/
+Demo 访问地址（Github Pages）：https://gbclstudio.github.io/navigation/demo/
 
 ~~或者：https://www.gcxstudio.tech~~
 
